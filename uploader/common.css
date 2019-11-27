@@ -1,0 +1,147 @@
+/*メインページ*/
+footer{
+    display: flex;
+    width: auto;
+    height: 100%;
+    background-color: #444444;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0;
+}
+h1{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 250px;
+    margin: 0;
+
+}
+
+/*header*/
+.gnav{
+    width: auto ;
+    height: 100px;
+    background-color: #444444;
+    color: white;
+}
+.gnav_menu{
+    display: flex;
+    list-style: none;
+}
+
+/*article*/
+.main_block{
+    height: 600px;
+}
+
+/*画像選択*/
+#dropArea {
+    overflow: hidden;
+    padding: 60px 10px;
+    background: #ddd;
+    border: 3px #666 dashed;
+    color: #999;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#dropArea.dragover,
+#dropArea:active {
+    background: #cfc;
+    border-color: #9c9;
+    color: #9c9;
+}
+#fileInput {
+    display: none;
+}
+#output{
+    width: 200px;
+    height: 200px;
+}
+#output img {
+    display: block;
+    margin: 15px 10px;
+    max-width: 100%;
+    height: auto;
+}
+/*ボタン*/
+.uploader_btn{
+    margin:  0 auto;
+    width: 400px;
+    text-align: center;
+}
+#btn-square-shadow {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+#btn-square-shadow:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+
+
+/*footer*/
+.foot_block{
+    width: 340px;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+.foot_block p{
+    color: white;
+    margin: 0;
+    
+}
+.foot_menu{
+    float: left;
+}
+.foot_menu a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.foot_box{
+    padding-top: 8px;
+}
+.foot_block_menu{
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+.foot_block_menu p{
+    color: white;
+    margin: 0;
+    
+}
+
+.foot_under{
+    height: 15px;
+    margin: 0 auto;
+    background-color: #FFCC33;
+    clear: left;
+}
+
+.copyright{
+    height: 15px;
+    width: 300px;
+    color: white;
+    line-height:12px;
+    position: relative;
+    left: 740px;
+    font-size:13px;
+}
